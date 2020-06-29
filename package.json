@@ -1,0 +1,25 @@
+{
+  "name": "html-scss-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "compile:scss": "node-sass ./scss -o ./public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankajalan/html-scss-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankajalan/html-scss-boilerplate/issues"
+  },
+  "homepage": "https://github.com/priyankajalan/html-scss-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1"
+  }
+}
